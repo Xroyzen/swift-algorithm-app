@@ -1,0 +1,10 @@
+
+# GameSprite -> SKSpriteNode
+
+func getDistance(current: GameSprite, target: GameSprite) -> CGFloat {
+
+	let diff = current.position - target.position
+	let distance = sqrt(diff.x * diff.x + diff.y * diff.y)
+
+	return distance
+}

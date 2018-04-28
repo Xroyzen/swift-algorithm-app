@@ -1,0 +1,11 @@
+
+#GameSprite -> SKSpriteNode
+
+func getDirect(object obj: GameSprite) -> CGVector {
+
+	let rad = obj.zRotation + CGFloat.pi / 2
+	let dx = cos(rad)
+	let dy = sin(rad)
+
+	return CGVector(dx: dx, dy: dy)
+}
