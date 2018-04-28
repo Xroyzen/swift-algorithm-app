@@ -49,6 +49,8 @@ class General: MilitaryChain {
 }
 
 
+// function main()...
+
 let enemy = Enemy()
 
 let soldier = Soldier()

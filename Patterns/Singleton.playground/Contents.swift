@@ -7,6 +7,11 @@ class Safe {
     private init() {}
 }
 
+
+
+
+// function main()...
+
 var safe = Safe.shared
 safe.money += 1000
 safe.money

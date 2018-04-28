@@ -4,6 +4,19 @@ protocol Car {
     func drive()
 }
 
+protocol Bus {
+    
+    func drive()
+}
+
+protocol Factory {
+    
+    func produceCar() -> Car
+    func produceBus() -> Bus
+}
+
+
+// MARK: - Car
 class LittleSizeCar: Car {
     
     func drive() {
@@ -18,11 +31,8 @@ class MiddleSizeCar: Car {
     }
 }
 
-protocol Bus {
-    
-    func drive()
-}
 
+// MARK: - Bus
 class LittleSizeBus: Bus {
     
     func drive() {
@@ -37,12 +47,8 @@ class MiddleSizeBus: Bus {
     }
 }
 
-protocol Factory {
-    
-    func produceCar() -> Car
-    func produceBus() -> Bus
-}
 
+// MARK: - Factory
 class LittleSizeFactory: Factory {
     
     func produceBus() -> Bus {
@@ -64,6 +70,9 @@ class MiddleSizeFactory: Factory {
         return MiddleSizeBus()
     }
 }
+
+
+// function main()...
 
 let littleSizeFactory = LittleSizeFactory()
 let middleSizeFactory = MiddleSizeFactory()

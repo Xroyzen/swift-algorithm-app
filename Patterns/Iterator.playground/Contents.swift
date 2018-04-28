@@ -52,6 +52,9 @@ class GoodDriverIterator: BasicIterator {
 }
 
 
+
+// function main()...
+
 let car = Car()
 let goodDriverIterator = car.goodDriverIterator.next()
 

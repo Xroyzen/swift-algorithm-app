@@ -33,6 +33,9 @@ class BWFilter: FilterBehavior {
 
 
 
+
+// function main()...
+
 let filter = Filter()
 let image = UIImage()
 

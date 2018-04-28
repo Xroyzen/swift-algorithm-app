@@ -44,6 +44,10 @@ class LowManager: Coworker {
     }
 }
 
+
+
+// function main()...
+
 let mainManager = Manager(lvl: 1)
 let managerLvl_2 = Manager(lvl: 2)
 let managerLvl_10 = Manager(lvl: 10)

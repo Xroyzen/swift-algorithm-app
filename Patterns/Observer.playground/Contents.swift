@@ -47,6 +47,10 @@ class Pupil: NSObject, PropertyObserver {
     
 }
 
+
+
+// function main()...
+
 let teacher = Teacher()
 let pupil = Pupil()
 

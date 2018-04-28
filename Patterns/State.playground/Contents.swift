@@ -77,6 +77,7 @@ class Print: State {
 
 
 
+// function main()...
 
 let printer = Printer()
 printer.turnOn()

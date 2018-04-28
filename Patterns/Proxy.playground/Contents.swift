@@ -1,4 +1,6 @@
-// Виртуальный прокси
+
+// MARK: - Virtual proxy
+
 /*class User {
     var id = "123"
 }
@@ -30,7 +32,7 @@ class Proxy: ServerProtocol {
     }
 }*/
 
-// Защитный прокси
+// Def proxy
 class User {
     let name = "qwe"
     let password = "123"

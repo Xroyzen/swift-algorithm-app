@@ -1,4 +1,5 @@
-// Порождающий паттерн (не цельный паттерн)
+
+// It is NOT pattern, but ...
 
 enum CarType {
     case huge, fast
@@ -32,6 +33,8 @@ class CarFactory {
 }
 
 
+
+// function main()...
 
 let hugeCar = CarFactory.produceCar(type: .huge)
 let fastCar = CarFactory.produceCar(type: .fast)

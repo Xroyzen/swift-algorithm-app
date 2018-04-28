@@ -77,6 +77,8 @@ class TransactionManager {
 }
 
 
+// function main()...
+
 let account = Account(accountName: "I'm", balance: 1000)
 let transactionManager = TransactionManager.shared
 transactionManager.addTransaction(command: Deposit(account: account, amount: 150))
